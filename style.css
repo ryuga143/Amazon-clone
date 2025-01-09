@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+body{
+    background-color: #dadada;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+nav{
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.nav-country{
+    padding: 0%;
+    display: flex;
+    align-items: end;
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #c4c4c4;
+    margin-left: 15px;
+}
+.nav-country p{
+    font-size: 13px;
+    color: hsl(0, 6%, 85%);
+    border-radius: 4px 0px 0px 4px;
+
+}
+.nav-country h1{
+    font-size: 18px;
+    font-style: Arial;
+    color: #fff;
+    border-radius: 2px 5px 5px 2px;
+    text-align: center;
+}
+
+
+.nav-search{                                                                                                                                                                                                                                                                            
+    flex: 1;
+    display: flex;
+    align-items: center;
+    background: #fff;
+    color: gray;
+    max-width: 900px;
+    border-radius: 4px;
+    margin-left: 15px;
+}
+.nav-search-category{
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    gap: 5px;
+    background: #e3dfdf;
+    border-radius: 4px 4px 4px 4px;
+}
+.nav-search-input{
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100%;
+}
+.nav-search-icon{
+    max-width: 49px;
+    padding: 7px; 
+    background: #ffd64f;
+    border-radius: 2px 5px 5px 2px;
+}
+.nav-language{
+    display: flex;
+    align-items: center;
+    gap:3px;
+    font-weight: 600;
+    margin-left: 1.5%;
+}
+.nav-text{
+    font-size: 16px;
+    margin-left: 18px;
+}
+.nav-text h1{
+    font-size: 16px;
+}
+.nan-return-orders{
+    font-size: 15px;
+    margin-left: 20px;
+}
+.nan-return-orders h1{
+    font-size: 18px;
+}
+.nav-cart{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0px 15px;
+    
+}
+.nav-cart h1{
+    font-size: 18px;
+}
+
+
