@@ -128,16 +128,17 @@ nav{
 .header-slider ul{
     display: flex;
     overflow-y: hidden;
+    
 }
 .header-img{
     max-width: 100%;
-    mask-image: linear-gradient(to bottom,#000000 50%,transparent);
+    mask-image: linear-gradient(to bottom,#000000 50%,transparent 100%);
 }
 .header-slider a{
     position: absolute;
     top: 20%;
     z-index: 1;
-    padding: 17vh 5vh;
+    padding: 17vh 4vw;
     /* background: #ffffff4f; */
     color: #1e1e1e7b;
     text-decoration: none;
@@ -148,4 +149,30 @@ nav{
 }
 .control_next{
     right: 0;
+}
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 30px;
+    row-gap: 20px;
+}
+
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 20px;
+    background: #fff;
+    max-width: 24%;
+    min-height: 200px;
+    z-index: 1;
+}
+.box-col a{
+    font-size: 13px;
+    color: #009999;
+    font-weight: 500;
+}
+.header-box{
+    margin-top: -20vw;
 }
