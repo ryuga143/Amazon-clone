@@ -176,3 +176,22 @@ nav{
 .header-box{
     margin-top: -20vw;
 }
+.product-slider{
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px ;
+    margin-bottom: 15px;
+}
+.product-slider .products{
+    display: flex;
+    overflow: auto;
+    gap: 20px;
+    margin-top: 10px;
+    
+}
+
+.product-slider .products img{
+    max-width: 200px;
+    max-height: 200;
+}
+
